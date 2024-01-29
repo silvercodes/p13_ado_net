@@ -1,0 +1,6 @@
+Install-Package Microsoft.EntityFrameworkCore.SqlServer -Version 7.0.15
+Install-Package Microsoft.EntityFrameworkCore.Tools -Version 7.0.15
+
+Server=(localdb)\MSSQLLocalDB;Database=itstep_db;Trusted_Connection=True;Encrypt=False;
+
+Scaffold-DbContext "Server=(localdb)\MSSQLLocalDB;Database=itstep_db;Trusted_Connection=True;Encrypt=False;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models

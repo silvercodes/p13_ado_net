@@ -1,0 +1,23 @@
+mysql -u root -p			// Подключение к серверу MySql
+
+show databases;
+
+use p13_db;
+
+show tables;
+
+
+use p13_db;
+
+CREATE TABLE IF NOT EXISTS users (
+	id int PRIMARY KEY AUTO_INCREMENT,
+    username varchar(50) NOT NULL,
+    email varchar(50) NOT NULL UNIQUE,
+    password varchar(50) NOT NULL
+);
+
+INSERT INTO users (username, email, password)
+VALUES
+	('vasia', 'vasia@mail.com', '123123123'),
+    ('petya', 'petya@mail.com', '123123123'),
+    ('dima', 'dima@mail.com', '123123123');

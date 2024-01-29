@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33110.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04_db_analizer", "04_db_analizer\04_db_analizer.csproj", "{90ABC7D6-B365-4C1B-9F66-6C844E119E78}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DbProsessor", "DbProsessor\DbProsessor.csproj", "{0A71D3C2-C0BA-4870-86DB-5644ADA3D800}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{90ABC7D6-B365-4C1B-9F66-6C844E119E78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90ABC7D6-B365-4C1B-9F66-6C844E119E78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90ABC7D6-B365-4C1B-9F66-6C844E119E78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90ABC7D6-B365-4C1B-9F66-6C844E119E78}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A71D3C2-C0BA-4870-86DB-5644ADA3D800}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A71D3C2-C0BA-4870-86DB-5644ADA3D800}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A71D3C2-C0BA-4870-86DB-5644ADA3D800}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A71D3C2-C0BA-4870-86DB-5644ADA3D800}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {58602BF3-392E-45FE-8600-75E64A4E0CFF}
+	EndGlobalSection
+EndGlobal
