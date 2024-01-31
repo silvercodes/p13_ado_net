@@ -45,5 +45,16 @@ string? connString = config.GetConnectionString("local");
 
 Console.WriteLine(connString);
 
+DbContextOptionsBuilder<Db> builder = new DbContextOptionsBuilder<Db>();
+builder.UseSqlServer(connString);
+DbContextOptions<Db> options = builder.Options;
 
+using Db db = new Db(options);
+await db.Users.AddRangeAsync(
+    new User() { Email = "vasia@mail.com", Password = "123123123" },
+    new User() { Email = "petya@mail.com", Password = "123123123" },
+    new User() { Email = "dima@mail.com", Password = "123123123" }
+);
+
+await db.SaveChangesAsync();
 
